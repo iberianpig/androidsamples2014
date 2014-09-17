@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.multiactivitysample.MainActivity" >
+    <item android:id="@+id/operate_additem"
+        android:title="@string/operate_additem">
+    </item>
+    <item android:id="@+id/operate_delteitem"
+        android:title="@string/operate_deleteitem">
+    </item>
+</menu>

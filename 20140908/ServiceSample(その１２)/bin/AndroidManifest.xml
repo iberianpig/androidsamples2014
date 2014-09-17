@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.servicesample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ServiceSampleActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="SimpleServiceSample"></activity>
+        <service android:name="MySimpleService"></service>
+        <activity android:name="TimerServiceSample"></activity>
+        <service android:name="MyTimerService"></service>
+        <activity android:name="IntentServiceSample"></activity>
+        <service android:name="MyIntentService"></service>
+        <activity android:name="AlarmServiceSample"></activity>
+        <service android:name="MyAlarmService"></service>
+        <activity android:name="BindServiceSample"></activity>
+        <service android:name="MyBindService"></service>
+        <activity android:name="ServiceBroadcastSample"></activity>
+        <service android:name="MyBroadcastService"></service>
+        <receiver android:name="MyBroadcastReceiver"></receiver>
+        <activity android:name="ServiceNotificationSample"></activity>
+        <service android:name="MyNotificationService"></service>
+    </application>
+
+</manifest>

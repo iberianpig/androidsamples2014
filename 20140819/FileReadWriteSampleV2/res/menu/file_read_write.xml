@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.filereadwritesample.FileReadWriteActivity" >
+
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="SAVE"/>
+    <item
+        android:id="@+id/action_load"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="LOAD"/>
+    <item
+        android:id="@+id/action_sdsave"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="SD SAVE"/>
+    <item
+        android:id="@+id/action_sdload"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="SD LOAD"/>
+</menu>

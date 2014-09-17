@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.paintmethodsample.PaintMethodSampleActivity" >
+
+    <item
+        android:id="@+id/action_setStyle"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="輪郭線の描画"/>
+    <item
+        android:id="@+id/action_setStrokeWidth"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="線分の太さ"/>
+    <item
+        android:id="@+id/action_setStrokeCap"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="線の先端"/>
+    <item
+        android:id="@+id/action_setColor"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="色の設定"/>
+    <item
+        android:id="@+id/action_setAlpha"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="半透明の描画"/>
+    <item
+        android:id="@+id/action_setTypeface"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="テキストの描画"/>
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WebAPISample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="display_lowtemperature">最低：%1$s度</string>
+    <string name="display_hightemperature">最高：%1$s度</string>
+
+    <string name="caption_lastupdate">最終更新日</string>
+    <string name="display_loading">読み込み中...</string>
+    <string name="display_loadfailed">読み込みできませんでした</string>
+
+</resources>
